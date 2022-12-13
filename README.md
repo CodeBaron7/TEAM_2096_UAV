@@ -9,27 +9,30 @@ git clone https://github.com/CodeBaron7/
 
 ## 資料準備
 
-1. 至官方Download Dataset下載Training Dataset_v5.zip、Private Testing Dataset_v2.zip
-2. 
-3. 下載已訓練完成的模型 : 
+1. 至官方Download Dataset下載Private Testing Dataset_v2.zip
+2. 下載已訓練完成的模型 : 
+3. 下載調整後的訓練資料集 : 
+      訓練資料調整
+      1. img0040.png 與 img0040.txt刪除，
+      2. img0201 ~ img0400 當作驗證集
 
 準備好後將資料照著下方檔案結構，擺放資料，請注意檔名與路徑需一致。
 ### 檔案結構:
 ```
 .
 └── TEAM_2096_UAV
-      ├─yolov7
-      |   ├─Train1.ipynb       # 
-      |   ├─Train2.ipynb       # 
-      |   └─Inference.ipynb  
-      ├─Dataset
-      |   ├─Submit_Image       #
-      |   ├─Train_Images       #
-      |   └─Train_masks        # 
-      ├─result
-      |   ├─submit_images      #
-      |   ├─Train1_models      # 
-      |   └─Train2_models      # 
+      ├─code
+      |   ├─      # Private Testing Dataset_v2
+      |   ├─       # 
+      |   ├─       #
+      |   ├─       #
+      |   ├─       #
+      |   ├─       #
+      |   └─ 
+      ├─dataset
+      |   ├─       #
+      |   ├─       #
+      |   └─       #      
       ├─LICENSE
       ├─README.md         
       └─requirements.txt
