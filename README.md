@@ -75,7 +75,7 @@ python train_aux.py --adam
    訓練後模型存放於runs\train\v18\weights
 
 ## Inference
-   至TEAM_2096_UAV\yolov7路徑下執行
+   至TEAM_2096_UAV\code路徑下執行
 ```sh
 python detect.py --save-txt
 ```
