@@ -1,14 +1,10 @@
 # ...................................
 
-
-
-程式架構說明於報告 (貳、程式碼) 小節內
-
 以下為重現實驗教學
 
 ## 下載程式碼
 ```
-git clone https://github.com/CodeBaron7/TEAM_1759_STAS_II.git
+git clone https://github.com/CodeBaron7/
 ```
 
 ## 資料準備
