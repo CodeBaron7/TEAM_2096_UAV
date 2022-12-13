@@ -4,7 +4,7 @@
 
 ## 下載程式碼
 ```
-git clone https://github.com/CodeBaron7/
+git clone https://github.com/CodeBaron7/TEAM_2096_UAV.git
 ```
 
 ## 資料準備
