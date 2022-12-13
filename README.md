@@ -22,17 +22,13 @@ git clone https://github.com/CodeBaron7/
 .
 └── TEAM_2096_UAV
       ├─code
-      |   ├─      # Private Testing Dataset_v2
+      |   ├─       # Private Testing Dataset_v2
       |   ├─       # 
       |   ├─       #
       |   ├─       #
       |   ├─       #
       |   ├─       #
       |   └─ 
-      ├─dataset
-      |   ├─       #
-      |   ├─       #
-      |   └─       #      
       ├─LICENSE
       ├─README.md         
       └─requirements.txt
@@ -87,17 +83,17 @@ pip install -r requirements.txt
 ```
 
 ## Train
-   至TEAM_2096_UAV\yolov7路徑下輸入  
+   至TEAM_2096_UAV\code路徑下輸入  
 ```sh
-
+python train_aux.py --adam
 ```
-   訓練後模型存放於
+   訓練後模型存放於runs\train\v18\weights
 
 ## Inference
-注意:
-   至TEAM_2096_UAV\yolov7路徑下  
-   執行
+   至TEAM_2096_UAV\yolov7路徑下執行
 ```sh
-
+python detect.py --save-txt
 ```
-Inference後產生的CSV提交檔存放於TEAM_2096_UAV\yolov7目錄下
+Inference後產生的submission.csv提交檔存放於TEAM_2096_UAV\code目錄下
+
+
