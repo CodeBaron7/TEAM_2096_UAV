@@ -10,30 +10,14 @@ git clone https://github.com/CodeBaron7/
 ## 資料準備
 
 1. 至官方Download Dataset下載Private Testing Dataset_v2.zip
-2. 下載已訓練完成的模型 : 
-3. 下載調整後的訓練資料集 : 
+2. 下載已訓練完成的模型 :  https://drive.google.com/file/d/1f-1MSgxfKgrN9BQGxJgPUEzUfWxECf1m/view?usp=share_link
+3. 下載調整後的訓練資料集 : https://drive.google.com/file/d/1iI7mH99AW1orHp4BdhMFrOi6MKpSfuiy/view?usp=share_link
       訓練資料調整
       1. img0040.png 與 img0040.txt刪除，
       2. img0201 ~ img0400 當作驗證集
 
-準備好後將資料照著下方檔案結構，擺放資料，請注意檔名與路徑需一致。
-### 檔案結構:
-```
-.
-└── TEAM_2096_UAV
-      ├─code
-      |   ├─       # Private Testing Dataset_v2
-      |   ├─       # 
-      |   ├─       #
-      |   ├─       #
-      |   ├─       #
-      |   ├─       #
-      |   └─ 
-      ├─LICENSE
-      ├─README.md         
-      └─requirements.txt
-```
-注意: Dataset 與result 內各資料夾僅有一層，例如Dataset\Submit_Image打開即為Private_00000000.jpg ~ Private_00000183.jpg
+準備好後將資料夾"dataset" 與 "Private Testing Dataset_v2"，放至TEAM_2096_UAV\code目錄下，
+請注意檔名需一致。
 
 ## 環境配置:
 
