@@ -49,13 +49,13 @@ activate
 python -m pip install --upgrade pip
 pip install --upgrade setuptools
 ```
-   依cuda版本安裝對應pytorch函式庫
-```sh
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
-```
    至requirements.txt目錄下安裝其餘函式庫
 ```sh
 pip install -r requirements.txt
+```
+   依cuda版本安裝對應pytorch函式庫
+```sh
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
 ### 2.執行於TWCC CCS cm.super
