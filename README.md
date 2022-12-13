@@ -13,11 +13,11 @@ git clone https://github.com/CodeBaron7/TEAM_2096_UAV.git
 2. 下載已訓練完成的模型 :  https://drive.google.com/file/d/1f-1MSgxfKgrN9BQGxJgPUEzUfWxECf1m/view?usp=share_link
 3. 下載調整後的訓練資料集 : https://drive.google.com/file/d/1iI7mH99AW1orHp4BdhMFrOi6MKpSfuiy/view?usp=share_link
       
-      訓練資料調整
+      訓練資料調整內容
       1. img0040.png 與 img0040.txt刪除，
       2. img0201 ~ img0400 當作驗證集
 
-準備好後將資料夾"dataset" 與 "Private Testing Dataset_v2"，放至TEAM_2096_UAV\code目錄下，
+下載並解壓好後將資料夾 "dataset" 與 "Private Testing Dataset_v2"，放至TEAM_2096_UAV\code目錄下，
 請注意檔名需一致。
 
 ## 環境配置:
