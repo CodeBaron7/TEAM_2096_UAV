@@ -12,6 +12,7 @@ git clone https://github.com/CodeBaron7/
 1. 至官方Download Dataset下載Private Testing Dataset_v2.zip
 2. 下載已訓練完成的模型 :  https://drive.google.com/file/d/1f-1MSgxfKgrN9BQGxJgPUEzUfWxECf1m/view?usp=share_link
 3. 下載調整後的訓練資料集 : https://drive.google.com/file/d/1iI7mH99AW1orHp4BdhMFrOi6MKpSfuiy/view?usp=share_link
+      
       訓練資料調整
       1. img0040.png 與 img0040.txt刪除，
       2. img0201 ~ img0400 當作驗證集
